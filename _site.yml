@@ -1,0 +1,29 @@
+name: "Jon Smart"
+output_dir: 
+navbar:
+  title: "write.hack: collaborative writing"
+  right:
+  - text: "Bio"
+    icon: fa-home
+    href: index.html
+  - text: "Teaching"
+    icon: fa-chalkboard
+    href: teaching.html
+  - text: "Publications and Research"
+    icon: fa-book-open
+    href: publications.html
+  - text: "Contact"
+    icon: fa-project-diagram
+    href: contact.html
+output:
+  html_document:
+    theme: journal
+    highlight: textmate
+    css: css/style.css
+    df_print: paged
+    toc: true
+    toc_float: yes
+    bibliography: library.bib
+    biblio-style: apalike
+    include:
+      after_body: footer.html
